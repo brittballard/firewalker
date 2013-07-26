@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65c63610-e24c-42fb-aa39-4fc098287408" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/searches.rb" afterPath="$PROJECT_DIR$/app/models/searches.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/searches_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/searches_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/searches_spec.rb" afterPath="$PROJECT_DIR$/spec/models/searches_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/features/searching_functionality_spec.rb" afterPath="$PROJECT_DIR$/spec/features/searching_functionality_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/searches/show.html.haml" afterPath="$PROJECT_DIR$/app/views/searches/show.html.haml" />
-    </list>
+    <list default="true" id="65c63610-e24c-42fb-aa39-4fc098287408" name="Default" comment="" />
     <ignored path="firewalker.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Gemfile" changelist="65c63610-e24c-42fb-aa39-4fc098287408" time="1374863261860" ignored="false" />
@@ -42,7 +36,7 @@
           <file leaf-file-name="searching_functionality_spec.rb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/spec/features/searching_functionality_spec.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="38" column="33" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.7547684">
+                <state line="38" column="33" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.77656674">
                   <folding />
                 </state>
               </provider>
@@ -526,14 +520,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/models/searches_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="5" selection-start="548" selection-end="548" vertical-scroll-proportion="0.32561308">
+        <state line="21" column="5" selection-start="548" selection-end="548" vertical-scroll-proportion="0.42915532">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/features/searching_functionality_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="33" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.7547684">
+        <state line="38" column="33" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.77656674">
           <folding />
         </state>
       </provider>
