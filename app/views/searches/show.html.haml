@@ -1,6 +1,8 @@
 - content_for :title do
   Search Results
 
+= render partial: 'search_box'
+
 %h1
   Searching for
-  = @query
+  = @search.query

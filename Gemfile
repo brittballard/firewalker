@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'haml'
 gem 'launchy'
+gem 'twitter'
 
 group :development, :test do
   gem 'rspec-rails'

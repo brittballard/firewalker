@@ -3,10 +3,11 @@ class SearchesController < ApplicationController
   end
 
   def show
-    @query = params[:query]
+    @search = Searches.new(params[:query])
   end
 
   def create
-    redirect_to action: :show, :query => params[:search][:query]
+    search = Searches.new(params[:search][:query])
+    redirect_to action: :show, :query => search.query
   end
 end
