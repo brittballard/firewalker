@@ -1,7 +1,9 @@
 class Searches
-  def initialize(term, searcher=Twitter)
+  class_attribute :searcher
+  self.searcher=Twitter
+
+  def initialize(term)
     @term = term
-    @searcher = searcher
   end
 
   def query
@@ -19,6 +21,6 @@ class Searches
   private
 
   def retrieve_statuses
-    @searcher.search(query).statuses
+    searcher.search(query).statuses
   end
 end

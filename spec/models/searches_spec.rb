@@ -49,7 +49,8 @@ describe Searches, '#results' do
 
   it 'sends the search message with query to searcher' do
     searcher = double('searcher', search: double('results').as_null_object)
-    searches = Searches.new('test query', searcher)
+    Searches.searcher = searcher
+    searches = Searches.new('test query')
 
     searches.results
 

@@ -42,4 +42,26 @@ feature 'Search functionality' do
     expect(page).to have_css 'ul', 'Results'
     expect(page).to have_css 'li'
   end
+
+  scenario 'Searches will return results with my query value in them' do
+    visit root_path
+    fill_in 'Query', with: '#hola'
+    click_button 'Search'
+
+    within('.results') do
+      expect(page.body).to match /#hola/i
+    end
+  end
+
+  scenario 'Searches will return results with my query value in them' do
+    Searches.searcher = FakeTwitter
+    FakeTwitter.return_tweets_text = ['This is an awesome tweet!']
+    visit root_path
+    fill_in 'Query', with: '#hola'
+    click_button 'Search'
+
+    within('.results') do
+      expect(page.body).to have_content 'This is an awesome tweet!'
+    end
+  end
 end
