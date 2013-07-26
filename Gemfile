@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+gem 'haml'
+gem 'launchy'
+
 group :development, :test do
   gem 'rspec-rails'
   gem 'capybara'

@@ -1,0 +1,7 @@
+- content_for :title do
+  Search Twitter
+
+= form_for :search, url: searches_path do |form|
+  = form.label :query
+  = form.text_field :query
+  = form.submit 'Search'
