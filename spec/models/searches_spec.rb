@@ -46,4 +46,13 @@ describe Searches, '#results' do
     expect(results.length).to eq 15
     expect(results.first).to be_a String
   end
+
+  it 'sends the search message with query to searcher' do
+    searcher = double('searcher', search: double('results').as_null_object)
+    searches = Searches.new('test query', searcher)
+
+    searches.results
+
+    expect(searcher).to have_received(:search).with('#test query')
+  end
 end
