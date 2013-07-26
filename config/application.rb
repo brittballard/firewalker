@@ -26,3 +26,10 @@ module Firewalker
     # config.i18n.default_locale = :de
   end
 end
+
+Twitter.configure do |config|
+  config.consumer_key = 'SggGnks5GAdohEUYr4ASQ'
+  config.consumer_secret = 'lApArEZkXuGVNGdPvnoexe5teYr8FCpC470mLAHI'
+  config.oauth_token = '1315442514-uVb0yJ5zIA1NruSTP15Tq6RQc1ammJeYNZitz9g'
+  config.oauth_token_secret = '9zcWgLV09CoKpaJ2I6zM3BbulSuGSZ4jzXGbq4DHiI'
+end

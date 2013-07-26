@@ -37,3 +37,13 @@ describe Searches, '#seo_term' do
     end
   end
 end
+
+describe Searches, '#results' do
+  it 'returns 15 text tweets' do
+    search = Searches.new('query')
+    results = search.results
+
+    expect(results.length).to eq 15
+    expect(results.first).to be_a String
+  end
+end
