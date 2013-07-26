@@ -2,29 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65c63610-e24c-42fb-aa39-4fc098287408" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/firewalker.iml" afterPath="$PROJECT_DIR$/.idea/firewalker.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/searches.rb" afterPath="$PROJECT_DIR$/app/models/searches.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/searches_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/searches_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/searches_spec.rb" afterPath="$PROJECT_DIR$/spec/models/searches_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/features/searching_functionality_spec.rb" afterPath="$PROJECT_DIR$/spec/features/searching_functionality_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/searches/show.html.haml" afterPath="$PROJECT_DIR$/app/views/searches/show.html.haml" />
     </list>
     <ignored path="firewalker.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Gemfile" changelist="65c63610-e24c-42fb-aa39-4fc098287408" time="1374863261860" ignored="false" />
     <file path="/accessing_home_page.rb" changelist="65c63610-e24c-42fb-aa39-4fc098287408" time="1374863327429" ignored="false" />
     <file path="/routes.rb" changelist="65c63610-e24c-42fb-aa39-4fc098287408" time="1374860862827" ignored="false" />
-    <file path="/searches_controller.rb" changelist="65c63610-e24c-42fb-aa39-4fc098287408" time="1374863499579" ignored="false" />
+    <file path="/searches_controller.rb" changelist="65c63610-e24c-42fb-aa39-4fc098287408" time="1374864927429" ignored="false" />
     <file path="/index.html.haml" changelist="65c63610-e24c-42fb-aa39-4fc098287408" time="1374861284246" ignored="false" />
     <file path="/application.html.erb" changelist="65c63610-e24c-42fb-aa39-4fc098287408" time="1374859658645" ignored="false" />
-    <file path="/show.html.haml" changelist="65c63610-e24c-42fb-aa39-4fc098287408" time="1374862975794" ignored="false" />
-    <file path="/searches.rb" changelist="65c63610-e24c-42fb-aa39-4fc098287408" time="1374864530908" ignored="false" />
-    <file path="/searches_spec.rb" changelist="65c63610-e24c-42fb-aa39-4fc098287408" time="1374864355343" ignored="false" />
+    <file path="/show.html.haml" changelist="65c63610-e24c-42fb-aa39-4fc098287408" time="1374864887550" ignored="false" />
+    <file path="/searches.rb" changelist="65c63610-e24c-42fb-aa39-4fc098287408" time="1374864879417" ignored="false" />
+    <file path="/searches_spec.rb" changelist="65c63610-e24c-42fb-aa39-4fc098287408" time="1374864986399" ignored="false" />
     <file path="/Dummy.txt" changelist="65c63610-e24c-42fb-aa39-4fc098287408" time="1374864005107" ignored="false" />
+    <file path="/searching_functionality_spec.rb" changelist="65c63610-e24c-42fb-aa39-4fc098287408" time="1374865029226" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,10 +39,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="searches_spec.rb" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/spec/models/searches_spec.rb">
+          <file leaf-file-name="searching_functionality_spec.rb" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/spec/features/searching_functionality_spec.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="47" column="5" selection-start="1152" selection-end="1152" vertical-scroll-proportion="0.85694826">
+                <state line="38" column="33" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.7547684">
                   <folding />
                 </state>
               </provider>
@@ -56,10 +52,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="searches.rb" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/models/searches.rb">
+          <file leaf-file-name="searches_controller.rb" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/controllers/searches_controller.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="13" column="34" selection-start="251" selection-end="251" vertical-scroll-proportion="0.2656676">
+                <state line="10" column="56" selection-start="249" selection-end="249" vertical-scroll-proportion="0.20435968">
                   <folding />
                 </state>
               </provider>
@@ -91,13 +87,13 @@
         <option value="$PROJECT_DIR$/app/views/searches/_search_box.html.haml" />
         <option value="$PROJECT_DIR$/spec/features/accessing_home_page.rb" />
         <option value="$PROJECT_DIR$/spec/features/searching_functionality.rb" />
-        <option value="$PROJECT_DIR$/app/views/searches/show.html.haml" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/spec/features/searching_functionality_spec.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/searches_controller.rb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
-        <option value="$PROJECT_DIR$/spec/models/searches_spec.rb" />
         <option value="$PROJECT_DIR$/app/models/searches.rb" />
+        <option value="$PROJECT_DIR$/app/views/searches/show.html.haml" />
+        <option value="$PROJECT_DIR$/app/controllers/searches_controller.rb" />
+        <option value="$PROJECT_DIR$/spec/models/searches_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/features/searching_functionality_spec.rb" />
       </list>
     </option>
   </component>
@@ -483,29 +479,14 @@
         <state line="3" column="24" selection-start="122" selection-end="122" vertical-scroll-proportion="0.061307903" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/searches/show.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="17" selection-start="111" selection-end="111" vertical-scroll-proportion="0.14305177" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="13" selection-start="69" selection-end="69" vertical-scroll-proportion="0.041608877" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/features/searching_functionality_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="39" selection-start="483" selection-end="483" vertical-scroll-proportion="0.34741145" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="162" selection-end="162" vertical-scroll-proportion="0.12261581" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/searches_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="128" selection-end="128" vertical-scroll-proportion="0.14305177" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
@@ -515,16 +496,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/searches_spec.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/searches/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="5" selection-start="1152" selection-end="1152" vertical-scroll-proportion="0.85694826">
+        <state line="7" column="17" selection-start="111" selection-end="111" vertical-scroll-proportion="0.14305177">
+          <folding>
+            <marker date="1374864887000" expanded="true" signature="74:106" placeholder="%h1" />
+            <marker date="1374864887000" expanded="true" signature="74:106" placeholder="%h1" />
+            <marker date="1374864887000" expanded="true" signature="96:106" placeholder="= @search.seo_term" />
+            <marker date="1374864887000" expanded="true" signature="96:106" placeholder="= @search.query" />
+            <marker date="1374864887000" expanded="true" signature="113:140" placeholder="%ul Results" />
+            <marker date="1374864887000" expanded="true" signature="131:140" placeholder="@search.rsu" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/searches_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="56" selection-start="249" selection-end="249" vertical-scroll-proportion="0.20435968">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/searches.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="34" selection-start="251" selection-end="251" vertical-scroll-proportion="0.2656676">
+        <state line="12" column="23" selection-start="219" selection-end="219" vertical-scroll-proportion="0.24523161">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/searches_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="5" selection-start="548" selection-end="548" vertical-scroll-proportion="0.32561308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/features/searching_functionality_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="33" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.7547684">
           <folding />
         </state>
       </provider>

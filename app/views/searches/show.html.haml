@@ -6,3 +6,8 @@
 %h1
   Searching for
   = @search.query
+
+%ul
+  Results
+  - @search.results.each do |result|
+    %li= result

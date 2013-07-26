@@ -33,4 +33,13 @@ feature 'Search functionality' do
     uri = URI.parse(current_url)
     expect(uri.path).to eq '/searches/query'
   end
+
+  scenario 'Searches will return 15 results' do
+    visit root_path
+    fill_in 'Query', with: '#hola'
+    click_button 'Search'
+
+    expect(page).to have_css 'ul', 'Results'
+    expect(page).to have_css 'li'
+  end
 end

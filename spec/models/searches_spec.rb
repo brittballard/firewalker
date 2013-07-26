@@ -6,34 +6,34 @@ describe Searches, '#new' do
   end
 end
 
-describe Searches, '#query' do
+describe Searches, '#seo_term' do
   context 'given a hashless term' do
     it 'displays the given term' do
       search = Searches.new('hashless')
-      expect(search.query).to eq 'hashless'
+      expect(search.seo_term).to eq 'hashless'
     end
   end
 
   context 'given a hashful term' do
     it 'displays the term without the hash' do
       search = Searches.new('#hashful')
-      expect(search.query).to eq 'hashful'
+      expect(search.seo_term).to eq 'hashful'
     end
   end
 end
 
-describe Searches, '#seo_term' do
+describe Searches, '#query' do
   context 'given a hashless term' do
     it 'prepends the term with a hash' do
       search = Searches.new('hashless')
-      expect(search.seo_term).to eq '#hashless'
+      expect(search.query).to eq '#hashless'
     end
   end
 
   context 'given a hashful term' do
     it 'displays the given term' do
       search = Searches.new('#hashful')
-      expect(search.seo_term).to eq '#hashful'
+      expect(search.query).to eq '#hashful'
     end
   end
 end

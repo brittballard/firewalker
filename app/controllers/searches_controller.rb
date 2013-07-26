@@ -8,6 +8,6 @@ class SearchesController < ApplicationController
 
   def create
     search = Searches.new(params[:search][:query])
-    redirect_to action: :show, :query => search.query
+    redirect_to action: :show, :query => search.seo_term
   end
 end
